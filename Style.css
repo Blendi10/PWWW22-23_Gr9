@@ -80,9 +80,14 @@ p {
   margin: 5px 0;
 }
 
-
 .hd {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
