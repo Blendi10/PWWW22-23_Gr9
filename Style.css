@@ -42,10 +42,11 @@ body {
 .register img {
   padding-right: 4px;
 }
-
+/* ID e register  */
 #rg {
   padding-right: 12px;
 }
+/* ID e login  */
 
 #lg {
   padding-left: 12px;
@@ -65,6 +66,8 @@ hr {
 .container .item-list .image {
   width: 100%;
 }
+/* ID e imazheve ( veturave )  */
+
 #Chcam,
 #ext,
 #S-Class,
