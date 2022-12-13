@@ -211,6 +211,11 @@ footer input {
   padding-left: 15px;
   border-right: none;
   z-index: 2;
+  color: white;
+}
+
+footer input:focus {
+    outline: none;
 }
 
 footer button {
@@ -225,6 +230,10 @@ footer button {
   font-size: 12px;
   right: 4px;
   z-index: 1;
+}
+
+footer button:hover {
+  background-color:#b17c09 ;
 }
 footer img {
   width: 20px;
