@@ -59,6 +59,36 @@ body {
   padding-left: 12px;
 }
 
+/* Fillimi i style=it per box-at*/
+
+.boxContainer
+{
+  margin: 1em 0;
+}
+
+.box ul{
+  list-style: none;
+  margin: 1em;
+}
+
+.box h3
+{
+  margin: 1em;
+}
+
+.box
+{
+  display: inline-block;
+  width: 23%;
+  margin-left: 0;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  background-color: white;
+}
+
+/*Mbarimi i style-it per box-a*/
+
 .vertical-line1 {
   border-right: 2px solid black;
 }
