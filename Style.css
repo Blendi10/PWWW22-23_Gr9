@@ -3,7 +3,7 @@
   --secondary: #d8d8d8;
 }
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,8 +16,9 @@ body {
 
 .up-header {
   display: flex;
-  margin: 5px 65px;
-  justify-content: space-around;
+  max-width: 70%;
+  margin: 5px 15%;
+  justify-content: space-between;
 }
 
 .smi {
@@ -68,10 +69,15 @@ body {
 
 .boxContainer
 {
-  margin: 1em 0;
+  margin: 0.5em 0 2em;
 }
 
-.box
+h2
+{
+  font-size: medium;
+}
+
+.box, .box2
 {
   display: inline-block;
   width: 23%;
@@ -80,21 +86,24 @@ body {
   background-color: white;
 }
 
-.box ul
+.box ul, .box2 ul
 {
   list-style: none;
-  font-size: smaller;
+  font-size:x-small;
   font-weight: 500;
   margin: 1em;
 }
 
-.box ul li
+.box ul li, .box2 ul li
 {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
   padding: 0.5em;
   border-bottom: solid 1px var(--secondary);
 }
 
-.box ul li:last-child
+.box ul li:last-child, .box2 ul li:last-child
 {
   border-bottom: none;
 }
@@ -107,6 +116,23 @@ body {
   padding: 1.5em;
   background-size: cover;
   background-position: top;
+}
+
+.box2 h3
+{
+  display: flex;
+  justify-content: space-between;
+  font-weight:700;
+  font-size: small;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 0.75em;
+  border-top: 2px solid var(--primary);
+}
+
+.box2 h3 span
+{
+  margin: 0 1em;
 }
 
 #electronics
