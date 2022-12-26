@@ -1,3 +1,8 @@
+:root {
+  --primary: #f4b01d;
+  --secondary: #d8d8d8;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -66,25 +71,87 @@ body {
   margin: 1em 0;
 }
 
-.box ul{
-  list-style: none;
-  margin: 1em;
-}
-
-.box h3
-{
-  margin: 1em;
-}
-
 .box
 {
   display: inline-block;
   width: 23%;
-  margin-left: 0;
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
+  margin: 0 0.5em 0.5em 0;
   text-align: center;
   background-color: white;
+}
+
+.box ul
+{
+  list-style: none;
+  font-size: smaller;
+  font-weight: 500;
+  margin: 1em;
+}
+
+.box ul li
+{
+  padding: 0.5em;
+  border-bottom: solid 1px var(--secondary);
+}
+
+.box ul li:last-child
+{
+  border-bottom: none;
+}
+
+.box h3
+{
+  color: white;
+  font-weight: 500;
+  width: 100%;
+  padding: 1.5em;
+  background-size: cover;
+  background-position: top;
+}
+
+#electronics
+{
+  background-image: url(./assets/Images/ElectronicsBG.png);
+}
+
+#realEstate
+{
+  background-image: url(/assets/Images/RealEstateBG.png);
+}
+
+#vehicles
+{
+  background-image: url(./assets/Images/VehiclesBG.png);
+}
+
+#jobs
+{
+  background-image: url(./assets/Images/JobsBG.png);
+}
+
+#fashion
+{
+  background-image: url(./assets/Images/FashionBG.png);
+}
+
+#restaurants
+{
+  background-image: url(./assets/Images/RestaurantsBG.png);
+}
+
+#hotelTravel
+{
+  background-image: url(./assets/Images/Hotel&TravelBG.png);
+}
+
+#matrimonials
+{
+  background-image: url(./assets/Images/MatrimonialsBG.png);
+}
+
+.removeM-R
+{
+  margin-right: 0;
 }
 
 /*Mbarimi i style-it per box-a*/
@@ -98,7 +165,7 @@ body {
 }
 
 hr {
-  border: 0.1px solid #d8d8d8;
+  border: 0.1px solid var(--secondary);
 }
 
 .container .item-list .image {
@@ -151,7 +218,7 @@ hr {
 }
 
 .right button:hover {
-  background-color: #f4b01d;
+  background-color: var(--primary);
   cursor: pointer;
 }
 
@@ -190,14 +257,14 @@ hr {
   font-weight: bold;
   color: black;
   text-decoration-thickness: 2px;
-  text-decoration-color: #a8a8a8;
+  text-decoration-color: var(--secondary);
 }
 
 
 /* color rating stars */
 .fa-star {
   font-size: 15px;
-  color: #f4b01d;
+  color: var(--primary);
 }
 
 footer {
@@ -250,7 +317,7 @@ footer input:focus {
 }
 
 footer button {
-  background: #f4b01d;
+  background: var(--primary);
   border:1px solid #929292 ;
   border-left: none;
   cursor: pointer;
