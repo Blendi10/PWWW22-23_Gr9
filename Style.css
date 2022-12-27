@@ -1,3 +1,6 @@
+html {
+  scroll-behavior:smooth;
+}
 :root {
   --primary: #f4b01d;
   --secondary: #d8d8d8;
@@ -69,7 +72,9 @@ body {
 
 .boxContainer
 {
-  margin: 0.5em 0 2em;
+  margin: 1em 0 2em;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 h2
@@ -77,19 +82,36 @@ h2
   font-size: medium;
 }
 
+.boxContainer div:nth-of-type(4), .boxContainer div:nth-of-type(8)
+{
+  margin-right: 0;
+}
+
+
 .box, .box2
 {
   display: inline-block;
-  width: 23%;
+  width: 24.15%;
   margin: 0 0.5em 0.5em 0;
   text-align: center;
   background-color: white;
 }
 
+.box2
+{
+  box-shadow: 5px 5px 10px -6px rgba(0,0,0,1);
+}
+
+.box:hover
+{
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
 .box ul, .box2 ul
 {
   list-style: none;
-  font-size:x-small;
+  font-size: 10px;
   font-weight: 500;
   margin: 1em;
 }
@@ -100,7 +122,7 @@ h2
   justify-content: space-between;
   margin: 1em;
   padding: 0.5em;
-  border-bottom: solid 1px var(--secondary);
+  border-bottom: dashed 1px var(--secondary);
 }
 
 .box ul li:last-child, .box2 ul li:last-child
@@ -108,10 +130,16 @@ h2
   border-bottom: none;
 }
 
+.box ul li span:last-child, .box2 ul li span:last-child
+{
+  color: #9d9d9d;
+}
+
 .box h3
 {
   color: white;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 13px;
   width: 100%;
   padding: 1.5em;
   background-size: cover;
@@ -123,7 +151,7 @@ h2
   display: flex;
   justify-content: space-between;
   font-weight:700;
-  font-size: small;
+  font-size: 12px;
   width: 100%;
   background-color: #f2f2f2;
   padding: 0.75em;
@@ -142,7 +170,7 @@ h2
 
 #realEstate
 {
-  background-image: url(/assets/Images/RealEstateBG.png);
+  background-image: url(./assets/Images/RealEstateBG.png);
 }
 
 #vehicles
@@ -173,11 +201,6 @@ h2
 #matrimonials
 {
   background-image: url(./assets/Images/MatrimonialsBG.png);
-}
-
-.removeM-R
-{
-  margin-right: 0;
 }
 
 /*Mbarimi i style-it per box-a*/
