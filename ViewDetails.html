@@ -7,104 +7,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <link rel="stylesheet" href="./ViewDetails.css">
+    <link rel="stylesheet" href="./Style.css">
     <title>ViewDetails</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="mainImg">
-            <img src="#" alt="">
-        </div>
-        <div class="pro-img-list">
-            <a href="#">
-                <img src="#" alt="">
-            </a>
-            <a href="#">
-                <img src="#" alt="">
-            </a>
-            <a href="#">
-                <img src="#" alt="">
-            </a>
-            <a href="#">
-                <img src="#" alt="">
-            </a>
-        </div>
-    </div>
-    <div class="container">
-        <h3 class="title">
-            <a href="#" class="">
-                Volkswagen Golf 8
-            </a>
-            </h4>
-            <p>
-                Praesent ac condimentum felis. Nulla at nisl orci, at dignissim dolor, The best product descriptions
-                address
-                your ideal buyer directly and personally. The best product descriptions address your ideal buyer
-                directly
-                and personally.
-            </p>
-            <div class="group">
-                <span class="categories">
-                    <strong>Categories:</strong> <a rel="tag" href="#">SUV</a>, <a rel="tag" href="#">Cadet</a>,
-                    <a rel="tag" href="#">Sportsback</a>, <a rel="tag" href="#">Sports Car</a>.
-                </span>
-                <span class="tagged_as">
-                    <strong>Tags:</strong> <a rel="tag" href="#">Sports Car</a>, <a rel="tag" href="#">Volkswagen</a>.
-                </span>
-            </div>
-            <div class="price">
-                <strong>Price : </strong><span class="amount-old">$52244-</span><span class="pro-price">$33200.00</span>
-            </div>
-            <div class="quantity">
-                <label>Quantity</label>
-                <input type="quantiy" placeholder="1" class="form-control quantity">
-            </div>
-            <p>
-                <button class="contactSeller" type="button">Contact Seller</button>
-            </p>
-    </div>
-    <div class="tableC">
-        <h1>A Fancy Table</h1>
+    <a id="button"></a>
+    <!-- Headeri ku perfshihen ikonat e social-media, pjesa per regjistrim dhe logo me pjesen e navigation -->
+    <header>
+        <!-- up-header: pjesa qe permban ikonat e social-media dhe pjesen per regjistrim -->
+        <div class="up-header">
+            <!-- smi-> social-media-icons  -->
+            <ul class="smi">
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/Images/gplus b.png" width="15" height="17" alt="g+">
+                    </a>
+                </li>
 
-        <table id="customers">
-            <tr>
-                <th>Car Specifications</th>
-                <th>Answer</th>
-            </tr>
-            <tr>
-                <td>Fuel</td>
-                <td>Diesel</td>
-            </tr>
-            <tr>
-                <td>Transmission</td>
-                <td>Automatic</td>
-            </tr>
-            <tr>
-                <td>Kilometers Passed</td>
-                <td>100000-110000</td>
-            </tr>
-            <tr>
-                <td>Color</td>
-                <td>Red</td>
-            </tr>
-            <tr>
-                <td>Model</td>
-                <td>Golf</td>
-            </tr>
-            <tr>
-                <td>Brand</td>
-                <td>Volkswagen</td>
-            </tr>
-            <tr>
-                <td>Year of manufacture</td>
-                <td>2016</td>
-            </tr>
-            <tr>
-                <td>Car Condition</td>
-                <td>New/Rarerly Used</td>
-            </tr>
-        </table>
+                <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+            <div></div>
+            <ul class="register">
+                <li>
+                    <p style="padding-top: 4px;">Welcome, Visitor!</p>
+                </li>
+                <div class="vertical-line1"></div>
+                <li id="rg">
+                    <a href="Register.html"> <img src="assets/Images/Lock.png" alt=""> Register</a>
+                </li>
+                <div class="vertical-line2"></div>
+                <li id="lg">
+                    <a href="LogIn.html">Log in</a>
+                </li>
+            </ul>
+        </div>
+        <hr>
+    </header>
+    <div class="mainContainer">
+        <div class="main">
+            <div class="container">
+                <div class="mainImg">
+                    <img src="./assets/Images/grayAudiA7.png" alt="">
+                </div>
+                <div class="otherImgs">
+                    <a href="#"><img src="./assets/Images/martin-katler-0Sm-GWb_Zzw-unsplash-1.png" alt=""></a>
+                    <a href="#"><img src="./assets/Images/mauricio-sabino-DATq_xdyFhQ-unsplash.png" alt=""></a>
+                    <a href="#"><img src="./assets/Images/giorgio-trovato-DLU_5_bfAyA-unsplash.png" alt=""></a>
+                    <a href="#"><img src="./assets/Images/martin-katler-0Sm-GWb_Zzw-unsplash.png" alt=""></a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="description">
+                    <h3 class="title"><a href="#" class="">Audi A7</a></h3>
+                    <p>
+                        Praesent ac condimentum felis. Nulla at nisl orci, at dignissim dolor, The best product
+                        descriptions
+                        address
+                        your ideal buyer directly and personally. The best product descriptions address your ideal buyer
+                        directly
+                        and personally.
+                    </p>
+                    <div class="price">
+                        <strong>Price : </strong><span class="amount-old">$52244</span><span
+                            class="pro-price">$49999.00</span>
+                    </div>
+                    <a id="contact" href="#">Contact Seller</a>
+                </div>
+            </div>
+        </div>
+        <div class="containerT">
+            <div class="specifications">
+                <table>
+                    <tr>
+                        <th>Car Specifications</th>
+                        <th>Answer</th>
+                    </tr>
+                    <tr>
+                        <td>Fuel</td>
+                        <td>Diesel</td>
+                    </tr>
+                    <tr>
+                        <td>Transmission</td>
+                        <td>Automatic</td>
+                    </tr>
+                    <tr>
+                        <td>Kilometers Passed</td>
+                        <td>100000-110000</td>
+                    </tr>
+                    <tr>
+                        <td>Color</td>
+                        <td>Gray</td>
+                    </tr>
+                    <tr>
+                        <td>Model</td>
+                        <td>A7</td>
+                    </tr>
+                    <tr>
+                        <td>Brand</td>
+                        <td>Audi</td>
+                    </tr>
+                    <tr>
+                        <td>Year of manufacture</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>Car Condition</td>
+                        <td>Brand New</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
+    <footer>
+        <h1> Finderr. </h1>
+        <p> Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit <br>
+            consequat ipsum, nec sagittis sem nibh id elit. Duis sed od</p>
+        <ul class="smi">
+            <li>
+                <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/Images/gplus w.png" alt="g+">
+                </a>
+            </li>
+
+            <li>
+                <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+                <a href="#"> <i class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+                <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </ul>
+        <label> <input type="text" name="" placeholder=" Enter Your Email to stay the know">
+            <button type="submit">SUBSCRIBE   <img src="assets/Images/Layer 155 copy 3.png" alt=""></button></label>
+        <p id="bottom">Copyright &copy 2022 Finderr All Rights Reserved. Designed by <strong>TemplatesJungle</strong></p>
+    </footer>
 </body>
 
 </html>

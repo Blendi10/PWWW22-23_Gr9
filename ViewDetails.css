@@ -1,0 +1,159 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary: #f4b01d;
+    --secondary: #d8d8d8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.mainContainer
+{
+    margin: 2em 15%;
+    border-radius: 10%;
+}
+
+h3 a
+{
+    color: black;
+    font-weight: 700;
+}
+
+a:visited
+{
+    color: inherit;
+}
+
+.main
+{
+    display: flex;
+    flex: row wrap;
+}
+
+.container
+{
+    width: 50%;
+}
+
+.containerT, .container
+{
+    background-color: white;
+}
+
+.mainImg
+{
+    width: 100%;
+}
+
+.mainImg img
+{
+    width: 100%;
+    height: auto;
+}
+
+.otherImgs
+{
+    display: inline-block;
+}
+
+.otherImgs img
+{
+    width: 24.255%;
+}
+
+.description
+{
+    padding: 1em 1em;
+}
+
+.title a
+{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.description p
+{
+    margin-top: 0.5em;
+    text-align: justify;
+}
+
+.price
+{
+    margin: 1em 0;
+}
+
+.pro-price{
+    color:var(--primary) ;
+}
+
+.pro-price, .amount-old {
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.amount-old {
+    text-decoration: line-through;
+}
+
+#contact
+{
+    text-decoration: none;
+    padding: 10px 32px;
+    color: white;
+    background-color: var(--primary);
+    border-style: none;
+}
+
+#contact:hover
+{
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px var(--primary);
+    color: var(--primary);
+    text-shadow: 0px 0px 4px var(--primary);
+    cursor: pointer;
+}
+
+.specifications
+{
+    padding: 2em 1em;
+}
+
+.specifications table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.specifications table td,
+.specifications table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.specifications table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.specifications table tr:hover {
+    background-color: #ddd;
+}
+
+.specifications table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--primary);
+    color: white;
+}
