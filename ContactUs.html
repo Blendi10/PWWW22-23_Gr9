@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-    <link rel="stylesheet" href="./ViewDetails.css">
+    <link rel="stylesheet" href="./ContactUs.css">
     <link rel="stylesheet" href="./Style.css">
-    <title>ViewDetails</title>
+    <title>ContactUs</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Quicksand', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -56,78 +64,44 @@
         </div>
         <hr>
     </header>
-    <div class="mainContainer">
-        <div class="main">
-            <div class="container">
-                <div class="mainImg">
-                    <img src="./assets/Images/grayAudiA7.png" alt="">
-                </div>
-                <div class="otherImgs">
-                    <a href="#"><img src="./assets/Images/martin-katler-0Sm-GWb_Zzw-unsplash-1.png" alt=""></a>
-                    <a href="#"><img src="./assets/Images/mauricio-sabino-DATq_xdyFhQ-unsplash.png" alt=""></a>
-                    <a href="#"><img src="./assets/Images/giorgio-trovato-DLU_5_bfAyA-unsplash.png" alt=""></a>
-                    <a href="#"><img src="./assets/Images/martin-katler-0Sm-GWb_Zzw-unsplash.png" alt=""></a>
-                </div>
-            </div>
-            <div class="container">
-                <div class="description">
-                    <h3 class="title"><a href="#" class="">Audi A7</a></h3>
-                    <p>
-                        Praesent ac condimentum felis. Nulla at nisl orci, at dignissim dolor, The best product
-                        descriptions
-                        address
-                        your ideal buyer directly and personally. The best product descriptions address your ideal buyer
-                        directly
-                        and personally.
-                    </p>
-                    <div class="price">
-                        <strong>Price : </strong><span class="amount-old">$52244</span><span
-                            class="pro-price">$49999.00</span>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <address>
+                                4671 Sugar Camp Road,<br>
+                                Owatonna, Minnesota,<br>
+                                55060
+                            </address>
+                        </div>
                     </div>
-                    <a id="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div id="phone" class="text" style="margin-left: 50px;">
+                            <h3>Phone</h3>
+                            <p>+38345999666</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p><a href="mailto:support@finderr.com">someone@gmail.com</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="containerT">
-            <div class="specifications">
-                <table>
-                    <tr>
-                        <th>Car Specifications</th>
-                        <th>Answer</th>
-                    </tr>
-                    <tr>
-                        <td>Fuel</td>
-                        <td>Diesel</td>
-                    </tr>
-                    <tr>
-                        <td>Transmission</td>
-                        <td>Automatic</td>
-                    </tr>
-                    <tr>
-                        <td>Kilometers Passed</td>
-                        <td>100000-110000</td>
-                    </tr>
-                    <tr>
-                        <td>Color</td>
-                        <td>Gray</td>
-                    </tr>
-                    <tr>
-                        <td>Model</td>
-                        <td>A7</td>
-                    </tr>
-                    <tr>
-                        <td>Brand</td>
-                        <td>Audi</td>
-                    </tr>
-                    <tr>
-                        <td>Year of manufacture</td>
-                        <td>2021</td>
-                    </tr>
-                    <tr>
-                        <td>Car Condition</td>
-                        <td>Brand New</td>
-                    </tr>
-                </table>
+            <div class="right">
+                <h2>Contact Us</h2>
+                <input type="text" class="field" placeholder="Your Name" required>
+                <input type="text" class="field" placeholder="Your Email" required>
+                <input type="tel" class="field" placeholder="Phone" required>
+                <textarea placeholder="Message" class="field" required></textarea>
+                <button class="btn">Send</button>
             </div>
         </div>
     </div>
