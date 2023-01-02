@@ -178,7 +178,7 @@ hr {
   margin-bottom: 20px;
 }
 
-.right {
+#right {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -186,7 +186,7 @@ hr {
   font-weight: 400;
 }
 
-.right button {
+#right button {
   display: inline-block;
   padding: 10px 32px;
   background-color: #fff;
@@ -194,7 +194,12 @@ hr {
   border-style: none;
 }
 
-.right button:hover {
+#right button:active{
+  transform: scale(0.98);
+}
+
+
+#right .active, #right .btn:hover {
   background-color: var(--primary);
   cursor: pointer;
 }
