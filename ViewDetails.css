@@ -132,7 +132,7 @@ a:visited
 
 .specifications table td,
 .specifications table th {
-    border: 1px solid #ddd;
+    border: 1px inset #ddd;
     padding: 8px;
 }
 
