@@ -12,6 +12,11 @@ html, body {
   box-sizing: border-box;
 }
 
+a,
+button{
+  cursor: pointer;
+}
+
 body {
   scroll-behavior:smooth;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
