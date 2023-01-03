@@ -20,3 +20,8 @@
     align-items: center;
     padding: 1rem 0;
   }
+.logo {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 2rem;
+  }
