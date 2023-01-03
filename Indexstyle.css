@@ -25,3 +25,15 @@
     text-decoration: none;
     font-size: 2rem;
   }
+.nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+.nav a {
+    font-size: 0.9rem;
+    color: var(--color-primary);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
