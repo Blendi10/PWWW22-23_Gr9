@@ -33,7 +33,8 @@ h2
 .box:hover
 {
   transform: scale(1.1);
-  transition: 500ms;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in;
 }
 
 .box ul, .box2 ul
@@ -148,6 +149,13 @@ hr {
 .container .item-list .image {
   width: 100%;
 }
+
+.item-list .image a img:hover{
+  transition-duration: 500ms;
+  transition-timing-function: ease-in;
+  filter: saturate(170%);
+}
+
 /* ID e imazheve ( veturave )  */
 
 #Chcam,

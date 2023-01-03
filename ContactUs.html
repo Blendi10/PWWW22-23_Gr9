@@ -17,6 +17,7 @@
             font-family: 'Quicksand', sans-serif;
         }
     </style>
+    <script src="./map.js"></script>
 </head>
 
 <body>
@@ -73,9 +74,9 @@
                         <div class="text">
                             <h3>Address</h3>
                             <address>
-                                4671 Sugar Camp Road,<br>
-                                Owatonna, Minnesota,<br>
-                                55060
+                                M9 Eqrem Çabej,<br>
+                                Prishtina, Ulpiana,<br>
+                                10000
                             </address>
                         </div>
                     </div>
@@ -97,14 +98,16 @@
             </div>
             <div class="right">
                 <h2>Contact Us</h2>
+                <form action="#" method="get" autocomplete="off"></form>
                 <input type="text" class="field" placeholder="Your Name" required>
-                <input type="text" class="field" placeholder="Your Email" required>
+                <input type="email" class="field" placeholder="Your Email" required>
                 <input type="tel" class="field" placeholder="Phone" required>
                 <textarea placeholder="Message" class="field" required></textarea>
                 <button class="btn">Send</button>
             </div>
         </div>
     </div>
+    <div id="map"></div>
     <footer>
         <h1> Finderr. </h1>
         <p> Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit <br>
@@ -134,6 +137,7 @@
             <button type="submit">SUBSCRIBE   <img src="assets/Images/Layer 155 copy 3.png" alt=""></button></label>
         <p id="bottom">Copyright &copy 2022 Finderr All Rights Reserved. Designed by <strong>TemplatesJungle</strong></p>
     </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGPJAD0Ka-adG4TR79FYuaks2rQWfkYaY&callback=initMap&v=weekly" type="text/javascript" defer></script>
 </body>
 
 </html>

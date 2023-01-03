@@ -1,6 +1,7 @@
 html, body {
     scroll-behavior:smooth;
   }
+
 :root {
     --primary: #f4b01d;
     --secondary: #d8d8d8;
@@ -17,6 +18,12 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+}
+
+#map {
+    height: 400px;
+    width: 70%;
+    margin: auto;
 }
 
 .contactInfo {
