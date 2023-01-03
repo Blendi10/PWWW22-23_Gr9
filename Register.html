@@ -29,11 +29,6 @@
             </div>
 
             <div class="field">
-                <input type="text" id="ln" name="lname" required>
-                <label> Last Name </label>
-            </div>
-
-            <div class="field">
                 <input type="password" name="password" id="pwd" required>
                 <label> Password </label>
             </div>
@@ -43,8 +38,25 @@
                 <label> Enter your phone number: </label>
             </div>
 
+            <p style="margin-top: 10px; text-align: center; font-style: oblique;"> Select circle to continue</p>
+
+            <div style="display: flex;">
+                <svg width="300" height="50">
+                    <circle cx="80" cy="25" r="18" fill="black" />
+                </svg>
+
+                <svg width="200" height="50">
+                    <rect x="30" y="10" width="35" height="35" />
+                </svg>
+            </div>
+            <div style=" display: flex; justify-content: space-around;">
+                <input type="radio" name="ReCaptcha" value="0">
+                <input type="radio" name="ReCaptcha" value="1">
+            </div>
+
+
             <div class="field">
-               <a href="index.html"><button> Register </button></a>
+                <a href="index.html"><button> Register </button></a>
             </div>
 
             <div class="register-link">Already have an account?

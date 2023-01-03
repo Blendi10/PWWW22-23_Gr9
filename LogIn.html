@@ -7,7 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log In</title>
     <link rel="stylesheet" href="./Loginstyle.css">
+    <style>
+        #span::after {
+            content: " shape & color";
+        }
 
+        #lab1,
+        #lab2 {
+            text-transform: capitalize;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,14 +24,14 @@
     <div class="main">
 
         <div class="title">Login
-        
+
         </div>
 
         <form action="#" method="post" autocomplete="off">
 
             <div class="field">
                 <input type="email" id="email" name="email" required>
-                <label> Email Address  </label>
+                <label> Email Address </label>
             </div>
 
             <div class="field">
@@ -30,7 +39,17 @@
                 <label> Password </label>
             </div>
 
-           
+            <p style="margin-top: 10px; text-align: center;"> <span id="span"> Select</span> to continue</p>
+
+            <canvas id="canvas" width="300" height="100" style="border: 1px solid #fff;"></canvas>
+
+            <div style=" display: flex; justify-content: space-around;">
+                <label id="lab1"> <input type="radio" name="ReCaptcha" value="0"> <em> Circle & red</em></label>
+                <label id="lab2"> <input type="radio" name="ReCaptcha" value="1"> <em><abbr title="Rectangle"> Rec
+                        </abbr> &
+                        cyan</em></label>
+            </div>
+
             <div class="field">
                 <a href="index.html"><button> Log In </button></a>
             </div>
@@ -53,8 +72,18 @@
 
         </form>
     </div>
-    </div>
-
 </body>
+
+<script>
+    var c = document.getElementById("canvas");
+    var cont = c.getContext("2d");
+    var rgd = cont.createRadialGradient(190, 60, 1, 140, 60, 200);
+    rgd.addColorStop(0, "cyan");
+    rgd.addColorStop(1, "black")
+    cont.fillStyle = rgd;
+    cont.fillRect(120, 15, 160, 80);
+    cont.font = "15px Arial"
+    cont.fillText("ReCaptcha", 30, 50);
+</script>
 
 </html>
