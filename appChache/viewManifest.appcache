@@ -1,0 +1,12 @@
+CACHE MANIFEST
+
+CACHE:
+/ViewDetail.css
+/Style.css
+/ViewDetail.js
+
+FALLBACK:
+/ /ViewDetail.html
+
+NETWORK:
+*

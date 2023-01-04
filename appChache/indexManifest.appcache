@@ -1,0 +1,12 @@
+CACHE MANIFEST
+
+CACHE:
+/home.css
+/Style.css
+/main.js
+
+FALLBACK:
+/ /index.html
+
+NETWORK:
+*

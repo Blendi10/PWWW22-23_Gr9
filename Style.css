@@ -82,6 +82,65 @@ body {
   color: var(--primary);
 }
 
+
+.container1 {
+  max-width: 70%;
+  margin: 0.5rem auto 1rem;
+  overflow: hidden;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 0;
+}
+
+.logo {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 1.9rem;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav a {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav li:not(.nav li:last-child):hover a {
+  text-decoration: underline;
+}
+
+.nav li:last-child {
+  margin-left: 2rem;
+  padding: 0.35rem 1.2rem 0.45em;
+  background-color: #f4b01d;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.nav li:last-child a {
+  font-weight: 700;
+}
+
+.nav li:last-child:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
 footer {
   display: flex;
   flex-direction: column;
