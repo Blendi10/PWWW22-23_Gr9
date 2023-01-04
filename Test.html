@@ -146,7 +146,7 @@
             </tr>
             <tr>
                 <td class="td1">
-                   <a href="" style="text-decoration: none; color: black"> <li>Lorem ipsum dolor sit.</li></a>
+                    <a href="" style="text-decoration: none; color: black"> <li>Lorem ipsum dolor sit.</li></a>
                     <li>Lorem ipsum dolor sit.</li>
                     <li>Lorem ipsum dolor sit.</li>
                 </td>
@@ -182,7 +182,13 @@
                 <td colspan="3">Row 3 Cell 1</td>
             </tr>
         </table>
-<br><br><br>
+        <br><br><br>
+        <div class="date">
+        <input type="date" id="d1">
+        <input type="date" id="d2">
+        <button onclick="calcDays()">Difference</button>
+        <p id="output"></p>
+        </div>
     </section>
 
     <footer>
@@ -216,5 +222,16 @@
         </p>
     </footer>
 </body>
+<script>
+function calcDays(){
+    var d1 = document.getElementById("d1").value;
+    var d2 = document.getElementById("d2").value;
+    const dateOne = new Date(d1);
+    const datetwo = new Date(d2);
+    const time = Math.abs(datetwo-dateOne);
+    const days = Math.ceil(time/(1000*60*60*24));
+    document.getElementById("output").innerHTML=days;
+}
+</script>
 
 </html>
