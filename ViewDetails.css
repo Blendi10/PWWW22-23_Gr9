@@ -36,12 +36,12 @@ a:visited
     flex: row wrap;
 }
 
-.container
+.container2
 {
     width: 50%;
 }
 
-.containerT, .container
+.containerT, .container2
 {
     background-color: white;
 }

@@ -84,570 +84,578 @@
             </nav>
         </div>
     </header>
-    <div class="main1"
-        style="background-image: url('assets/Images/pexels-anni-roenkae-2457317.png'); background-repeat: no-repeat;">
-        <div class="container1">
-            <h1>Start searching here.</h1>
-            <form action="#" method="post" autocomplete="off">
-                <label>One solution to all your problems</label>
-                <div class="form-control">
-                    <input placeholder="Enter any word" />
-                    <select id="location" name="location">
-                        <option value="location">Location</option>
-                        <option value="newyork">New York</option>
-                        <option value="sanfrancisco">San Francisco</option>
-                        <option value="houston">Houston</option>
-                        <option value="washington">Washington</option>
-                        <option value="neworleans">New Orleans</option>
-                    </select>
-                    <select id="category" name="category">
-                        <option value="category">Category</option>
-                        <option value="electronics">Electronics</option>
-                        <option value="realestate">Real Estate</option>
-                        <option value="vehicles">Vehicles</option>
-                        <option value="jobs">Jobs</option>
-                        <option value="fashion">Fashion</option>
-                        <option value="resaturants">Resaturants</option>
-                        <option value="hotel">Hotel & Travels</option>
-                        <option value="matrimonials">Matrimonials</option>
-                    </select>
-                    <input type="submit" value="SEARCH" />
+    <main>
+        <div class="main1"
+            style="background-image: url('assets/Images/pexels-anni-roenkae-2457317.png'); background-repeat: no-repeat;">
+            <div class="container1">
+                <h1>Start searching here.</h1>
+                <form id="search-form">
+                    <label>One solution to all your problems</label>
+                    <div class="form-control">
+                        <input type="search" id="search-btn" placeholder="Enter any word" />
+                        <select id="location" name="location">
+                            <option value="location">Location</option>
+                            <option value="newyork">New York</option>
+                            <option value="sanfrancisco">San Francisco</option>
+                            <option value="houston">Houston</option>
+                            <option value="washington">Washington</option>
+                            <option value="neworleans">New Orleans</option>
+                        </select>
+                        <select id="category" name="category">
+                            <option value="category">Category</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="realestate">Real Estate</option>
+                            <option value="vehicles">Vehicles</option>
+                            <option value="jobs">Jobs</option>
+                            <option value="fashion">Fashion</option>
+                            <option value="resaturants">Resaturants</option>
+                            <option value="hotel">Hotel & Travels</option>
+                            <option value="matrimonials">Matrimonials</option>
+                        </select>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <section class="cards container2 fade">
+            <div class="prev" onclick="plusSlides(-1)">
+                <img src="assets/Images/Layer 155 copy 4.png" />
+            </div>
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 281.png" alt="" />
                 </div>
-            </form>
-        </div>
-    </div>
+                <div class="down-content">
+                    <h4>Clothing and fashion</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
+            </div>
 
-    <section class="cards container2 fade">
-        <div class="prev" onclick="plusSlides(-1)">
-            <img src="assets/Images/Layer 155 copy 4.png" />
-        </div>
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 281.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 283.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Computer and Electronics</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Clothing and fashion</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 283.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 284.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Used Cars and Vehicles</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Computer and Electronics</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 284.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 285.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Pets and Animals</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Used Cars and Vehicles</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 285.png" alt="" />
+            <button class="next" onclick="plusSlides(1)">
+                <img src="assets/Images/Layer 155 copy 3.png">
+            </button>
+        </section>
+        <section class="cards container2 fade">
+            <div class="prev" onclick="plusSlides(-1)">
+                <img src="assets/Images/Layer 155 copy 4.png" />
             </div>
-            <div class="down-content">
-                <h4>Pets and Animals</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <button class="next" onclick="plusSlides(1)">
-            <img src="assets/Images/Layer 155 copy 3.png">
-        </button>
-    </section>
-    <section class="cards container2 fade">
-        <div class="prev" onclick="plusSlides(-1)">
-            <img src="assets/Images/Layer 155 copy 4.png" />
-        </div>
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 284.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Used Cars and Vehicles</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
+            </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 284.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 281.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Clothing and fashion</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Used Cars and Vehicles</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 281.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 283.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Computer and Electronics</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Clothing and fashion</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 283.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 285.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Pets and Animals</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Computer and Electronics</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 285.png" alt="" />
+            <div class="next" onclick="plusSlides(1)">
+                <img src="assets/Images/Layer 155 copy 3.png">
             </div>
-            <div class="down-content">
-                <h4>Pets and Animals</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
+        </section>
+        <section class="cards container2 fade">
+            <div class="prev" onclick="plusSlides(-1)">
+                <img src="assets/Images/Layer 155 copy 4.png" />
             </div>
-        </div>
 
-        <div class="next" onclick="plusSlides(1)">
-            <img src="assets/Images/Layer 155 copy 3.png">
-        </div>
-    </section>
-    <section class="cards container2 fade">
-        <div class="prev" onclick="plusSlides(-1)">
-            <img src="assets/Images/Layer 155 copy 4.png" />
-        </div>
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 285.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Pets and Animals</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
+            </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 285.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 281.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Clothing and fashion</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Pets and Animals</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 281.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 283.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Computer and Electronics</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Clothing and fashion</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 283.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 284.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Used Cars and Vehicles</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Computer and Electronics</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 284.png" alt="" />
+            <div class="next" onclick="plusSlides(1)">
+                <img src="assets/Images/Layer 155 copy 3.png">
             </div>
-            <div class="down-content">
-                <h4>Used Cars and Vehicles</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
+        </section>
+        <section class="cards container2 fade">
+            <div class="prev" onclick="plusSlides(-1)">
+                <img src="assets/Images/Layer 155 copy 4.png" />
             </div>
-        </div>
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 283.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Computer and Electronics</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
+            </div>
 
-        <div class="next" onclick="plusSlides(1)">
-            <img src="assets/Images/Layer 155 copy 3.png">
-        </div>
-    </section>
-    <section class="cards container2 fade">
-        <div class="prev" onclick="plusSlides(-1)">
-            <img src="assets/Images/Layer 155 copy 4.png" />
-        </div>
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 283.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 284.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Used Cars and Vehicles</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Computer and Electronics</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 284.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 285.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Pets and Animals</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Used Cars and Vehicles</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 285.png" alt="" />
+            <div class="card">
+                <div class="icon1">
+                    <img src="assets/Images/Layer 281.png" alt="" />
+                </div>
+                <div class="down-content">
+                    <h4>Clothing and fashion</h4>
+                    <p>
+                        Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
+                    </p>
+                </div>
             </div>
-            <div class="down-content">
-                <h4>Pets and Animals</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
-        
-        <div class="card">
-            <div class="icon1">
-                <img src="assets/Images/Layer 281.png" alt="" />
-            </div>
-            <div class="down-content">
-                <h4>Clothing and fashion</h4>
-                <p>
-                    Duis Sed Odio Sitamet Nibh Vulputate Cursus a Sit
-                </p>
-            </div>
-        </div>
 
-        <div class="next" onclick="plusSlides(1)">
-            <img src="assets/Images/Layer 155 copy 3.png">
+            <div class="next" onclick="plusSlides(1)">
+                <img src="assets/Images/Layer 155 copy 3.png">
+            </div>
+        </section>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
         </div>
-    </section>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-    </div>
-    <div class="main">
-        <h2 id="categories">Browse Categories</h2>
-        <div class="boxContainer">
-            <div class="box">
-                <h3 id="electronics">Electronics</h3>
-                <ul>
-                    <li><span>Computer & Laptops</span><span>(3)</span></li>
-                    <li><span>Home Appliance</span><span>(2)</span></li>
-                    <li><span>Mobile & Tablets</span><span>(1)</span></li>
-                    <li><span>TV & LCD</span><span>(0)</span></li>
-                </ul>
+        <div class="main2">
+            <h2 id="categories">Browse Categories</h2>
+            <div class="boxContainer">
+                <div class="box">
+                    <h3 id="electronics">Electronics</h3>
+                    <ul>
+                        <li><span>Computer & Laptops</span><span>(3)</span></li>
+                        <li><span>Home Appliance</span><span>(2)</span></li>
+                        <li><span>Mobile & Tablets</span><span>(1)</span></li>
+                        <li><span>TV & LCD</span><span>(0)</span></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3 id="realEstate">Real Estate</h3>
+                    <ul>
+                        <li><span>Comercial Real Estate</span><span>(3)</span></li>
+                        <li><span>Farms & Ranches</span><span>(2)</span></li>
+                        <li><span>Homes For Sale</span><span>(1)</span></li>
+                        <li><span>Land For Sale</span><span>(0)</span></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3 id="vehicles">Vehicles</h3>
+                    <ul>
+                        <li><span>Classic Cars</span><span>(3)</span></li>
+                        <li><span>Off Roads Vehicles</span><span>(2)</span></li>
+                        <li><span>SUVs</span><span>(1)</span></li>
+                        <li><span>Van & Turcks</span><span>(0)</span></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3 id="jobs">Jobs</h3>
+                    <ul>
+                        <li><span>Cleaning Jobs</span><span>(3)</span></li>
+                        <li><span>Design Jobs</span><span>(2)</span></li>
+                        <li><span>Develpoment Jobs</span><span>(1)</span></li>
+                        <li><span>Finance Jobs</span><span>(0)</span></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3 id="fashion">Fashion</h3>
+                    <ul>
+                        <li><span>Bags & Beauty Products</span><span>(3)</span></li>
+                        <li><span>Clothings</span><span>(2)</span></li>
+                        <li><span>Shoes</span><span>(1)</span></li>
+                        <li><span>Watches & Jewellery</span><span>(0)</span></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3 id="restaurants">Restaurants</h3>
+                    <ul>
+                        <li><span>Fast Food</span><span>(3)</span></li>
+                        <li><span>Fine Dinning</span><span>(2)</span></li>
+                        <li><span>Cafe or Bistro</span><span>(1)</span></li>
+                        <li><span>Fast Casual</span><span>(0)</span></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3 id="hotelTravel">Hotel&Travel</h3>
+                    <ul>
+                        <li><span>Hotels</span><span>(3)</span></li>
+                        <li><span>Tour Packages</span><span>(2)</span></li>
+                        <li><span>Events & Nightlife</span><span>(1)</span></li>
+                        <li><span>Music & Bands</span><span>(0)</span></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3 id="matrimonials">Matrimonials</h3>
+                    <ul>
+                        <li><span>Brides</span><span>(3)</span></li>
+                        <li><span>Casual Dating</span><span>(2)</span></li>
+                        <li><span>Grooms</span><span>(1)</span></li>
+                        <li><span>Friendship</span><span>(0)</span></li>
+                    </ul>
+                </div>
             </div>
-            <div class="box">
-                <h3 id="realEstate">Real Estate</h3>
-                <ul>
-                    <li><span>Comercial Real Estate</span><span>(3)</span></li>
-                    <li><span>Farms & Ranches</span><span>(2)</span></li>
-                    <li><span>Homes For Sale</span><span>(1)</span></li>
-                    <li><span>Land For Sale</span><span>(0)</span></li>
-                </ul>
+            <h2>Urgent</h2>
+            <div class="boxContainer">
+                <div class="box2">
+                    <h3><span>For Sale</span><span>(125)</span></h3>
+                    <ul>
+                        <li><span>Clothing & Accessories</span><span>(44)</span></li>
+                        <li><span>Computers</span><span>(33)</span></li>
+                        <li><span>Electronics</span><span>(20)</span></li>
+                    </ul>
+                </div>
+                <div class="box2">
+                    <h3><span>Help Wanted</span><span>(25)</span></h3>
+                    <ul>
+                        <li><span>Article Writing</span><span>(4)</span></li>
+                        <li><span>Data Entry</span><span>(13)</span></li>
+                        <li><span>Web Develpoment</span><span>(08)</span></li>
+                    </ul>
+                </div>
+                <div class="box2">
+                    <h3><span>Jobs & Employment</span><span>(22)</span></h3>
+                    <ul>
+                        <li><span>Accounting</span><span>(44)</span></li>
+                        <li><span>Clcerical</span><span>(33)</span></li>
+                        <li><span>Legal</span><span>(20)</span></li>
+                    </ul>
+                </div>
+                <div class="box2">
+                    <h3><span>Personal Ads</span><span>(15)</span></h3>
+                    <ul>
+                        <li><span>Men Seeking Women</span><span>(4)</span></li>
+                        <li><span>Women Seeking Men</span><span>(3)</span></li>
+                    </ul>
+                </div>
             </div>
-            <div class="box">
-                <h3 id="vehicles">Vehicles</h3>
-                <ul>
-                    <li><span>Classic Cars</span><span>(3)</span></li>
-                    <li><span>Off Roads Vehicles</span><span>(2)</span></li>
-                    <li><span>SUVs</span><span>(1)</span></li>
-                    <li><span>Van & Turcks</span><span>(0)</span></li>
-                </ul>
+            <div class="hd">
+                <h2>Classifieds</h2>
+                <div id="right">
+                    <button type="button" class="btn active" id="LL">Latest listing</button>
+                    <button type="button" class="btn" id="PL">Popular listing</button>
+                    <button type="button" class="btn" id="RL">Random listing</button>
+                </div>
             </div>
-            <div class="box">
-                <h3 id="jobs">Jobs</h3>
-                <ul>
-                    <li><span>Cleaning Jobs</span><span>(3)</span></li>
-                    <li><span>Design Jobs</span><span>(2)</span></li>
-                    <li><span>Develpoment Jobs</span><span>(1)</span></li>
-                    <li><span>Finance Jobs</span><span>(0)</span></li>
-                </ul>
-            </div>
-            <div class="box">
-                <h3 id="fashion">Fashion</h3>
-                <ul>
-                    <li><span>Bags & Beauty Products</span><span>(3)</span></li>
-                    <li><span>Clothings</span><span>(2)</span></li>
-                    <li><span>Shoes</span><span>(1)</span></li>
-                    <li><span>Watches & Jewellery</span><span>(0)</span></li>
-                </ul>
-            </div>
-            <div class="box">
-                <h3 id="restaurants">Restaurants</h3>
-                <ul>
-                    <li><span>Fast Food</span><span>(3)</span></li>
-                    <li><span>Fine Dinning</span><span>(2)</span></li>
-                    <li><span>Cafe or Bistro</span><span>(1)</span></li>
-                    <li><span>Fast Casual</span><span>(0)</span></li>
-                </ul>
-            </div>
-            <div class="box">
-                <h3 id="hotelTravel">Hotel&Travel</h3>
-                <ul>
-                    <li><span>Hotels</span><span>(3)</span></li>
-                    <li><span>Tour Packages</span><span>(2)</span></li>
-                    <li><span>Events & Nightlife</span><span>(1)</span></li>
-                    <li><span>Music & Bands</span><span>(0)</span></li>
-                </ul>
-            </div>
-            <div class="box">
-                <h3 id="matrimonials">Matrimonials</h3>
-                <ul>
-                    <li><span>Brides</span><span>(3)</span></li>
-                    <li><span>Casual Dating</span><span>(2)</span></li>
-                    <li><span>Grooms</span><span>(1)</span></li>
-                    <li><span>Friendship</span><span>(0)</span></li>
-                </ul>
-            </div>
-        </div>
-        <h2>Urgent</h2>
-        <div class="boxContainer">
-            <div class="box2">
-                <h3><span>For Sale</span><span>(125)</span></h3>
-                <ul>
-                    <li><span>Clothing & Accessories</span><span>(44)</span></li>
-                    <li><span>Computers</span><span>(33)</span></li>
-                    <li><span>Electronics</span><span>(20)</span></li>
-                </ul>
-            </div>
-            <div class="box2">
-                <h3><span>Help Wanted</span><span>(25)</span></h3>
-                <ul>
-                    <li><span>Article Writing</span><span>(4)</span></li>
-                    <li><span>Data Entry</span><span>(13)</span></li>
-                    <li><span>Web Develpoment</span><span>(08)</span></li>
-                </ul>
-            </div>
-            <div class="box2">
-                <h3><span>Jobs & Employment</span><span>(22)</span></h3>
-                <ul>
-                    <li><span>Accounting</span><span>(44)</span></li>
-                    <li><span>Clcerical</span><span>(33)</span></li>
-                    <li><span>Legal</span><span>(20)</span></li>
-                </ul>
-            </div>
-            <div class="box2">
-                <h3><span>Personal Ads</span><span>(15)</span></h3>
-                <ul>
-                    <li><span>Men Seeking Women</span><span>(4)</span></li>
-                    <li><span>Women Seeking Men</span><span>(3)</span></li>
-                </ul>
-            </div>
-        </div>
-        <div class="hd">
-            <h2>Classifieds</h2>
-            <div id="right">
-                <button type="button" class="btn active" id="LL">Latest listing</button>
-                <button type="button" class="btn" id="PL">Popular listing</button>
-                <button type="button" class="btn" id="RL">Random listing</button>
-            </div>
-        </div>
-        <div class="container" id="1">
-            <div class="item-list">
-                <figure>
-                    <div class="image"><a href="./ViewDetails.html" target="_blank"><img src="assets/Images/giorgio-trovato-DLU_5_bfAyA-unsplash.png" id="Chcam"
-                        alt=""></a></div>
+            <div class="container" id="1">
+                <div class="item-list">
+                    <figure>
+                        <div class="image"><a href="./ViewDetails.html" target="_blank"><img
+                                    src="assets/Images/giorgio-trovato-DLU_5_bfAyA-unsplash.png" id="Chcam" alt=""></a>
+                        </div>
                     </figure>
-                <div class="details">
-                    <a href="./ViewDetails.html" target="_blank">
-                        <p class="heading">Chevrolet Corvette Stingray 2014</p>
-                    </a>
-                    <p>COLOR: Black exterior, Jet Black interior</p>
-                    <p>TRANSMISSION: Manual</p>
-                    <p>DRIVETRAIN: Rear-Wheel Drive</p>
-                </div>
-                <div class="price">
-                    <h1>$52,500</h1>
-                    <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
+                    <div class="details">
+                        <a href="./ViewDetails.html" target="_blank">
+                            <p class="heading">Chevrolet Corvette Stingray 2014</p>
+                        </a>
+                        <p>COLOR: Black exterior, Jet Black interior</p>
+                        <p>TRANSMISSION: Manual</p>
+                        <p>DRIVETRAIN: Rear-Wheel Drive</p>
                     </div>
-                    <div class="links">
-                        <a href="./ViewDetails.html" target="_blank">View Details</a>
-                        <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container" id="2">
-            <div class="item-list">
-                <figure>
-                    <div class="image"><a href="./ViewDetails.html"  target="_blank" ><img src="assets/Images/martin-katler-0Sm-GWb_Zzw-unsplash.png" id="ext"
-                        alt=""></a>
-                    </div>
-                </figure>
-                <div class="details">
-                    <a href="./ViewDetails.html" target="_blank">
-                        <p class="heading">Chevrolet Corvette Stingray vehicles for Sale in..</p>
-                    </a>
-                    <p>COLOR: Black exterior, Jet Black interior</p>
-                    <p>TRANSMISSION: Manual</p>
-                    <p>DRIVETRAIN: Rear-Wheel Drive</p>
-                </div>
-                <div class="price">
-                    <h1>$42,500</h1>
-                    <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <div class="links">
-                        <a href="./ViewDetails.html" target="_blank">View Details</a>
-                        <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
+                    <div class="price">
+                        <h1>$52,500</h1>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="links">
+                            <a href="./ViewDetails.html" target="_blank">View Details</a>
+                            <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container" id="3">
-            <div class="item-list">
-                <figure>
-                    <div class="image"><a href="./ViewDetails.html" target="_blank"><img src="assets/Images/mauricio-sabino-DATq_xdyFhQ-unsplash.png" id="S-Class"
-                        alt=""></a></div>
+            <div class="container" id="2">
+                <div class="item-list">
+                    <figure>
+                        <div class="image"><a href="./ViewDetails.html" target="_blank"><img
+                                    src="assets/Images/martin-katler-0Sm-GWb_Zzw-unsplash.png" id="ext" alt=""></a>
+                        </div>
                     </figure>
-                <div class="details">
-                    <a href="./ViewDetails.html" target="_blank">
-                        <p class="heading">Mercedes-Benz E-Class 2014</p>
-                    </a>
-                    <p>COLOR: Black exterior, Jet Black interior</p>
-                    <p>TRANSMISSION: Manual</p>
-                    <p>DRIVETRAIN: Rear-Wheel Drive</p>
-                </div>
-                <div class="price">
-                    <h1>$39,900</h1>
-                    <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                    <div class="details">
+                        <a href="./ViewDetails.html" target="_blank">
+                            <p class="heading">Chevrolet Corvette Stingray vehicles for Sale in..</p>
+                        </a>
+                        <p>COLOR: Black exterior, Jet Black interior</p>
+                        <p>TRANSMISSION: Manual</p>
+                        <p>DRIVETRAIN: Rear-Wheel Drive</p>
                     </div>
-                    <div class="links">
-                        <a href="./ViewDetails.html" target="_blank">View Details</a>
-                        <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
+                    <div class="price">
+                        <h1>$42,500</h1>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="links">
+                            <a href="./ViewDetails.html" target="_blank">View Details</a>
+                            <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container" id="4">
-            <div class="item-list">
-                <figure>
-                    <div class="image"><a href="./ViewDetails.html" target="_blank"><img src="assets/Images/giorgio-trovato-DLU_5_bfAyA-unsplash.png" id="USD"
-                        alt=""></a></div>
+            <div class="container" id="3">
+                <div class="item-list">
+                    <figure>
+                        <div class="image"><a href="./ViewDetails.html" target="_blank"><img
+                                    src="assets/Images/mauricio-sabino-DATq_xdyFhQ-unsplash.png" id="S-Class"
+                                    alt=""></a></div>
                     </figure>
-                <div class="details">
-                    <a href="./ViewDetails.html" target="_blank">
-                        <p class="heading">Chevrolet Corvette Stingray 2014</p>
-                    </a>
-                    <p>COLOR: Black exterior, Jet Black interior</p>
-                    <p>TRANSMISSION: Manual</p>
-                    <p>DRIVETRAIN: RearWheel Drive</p>
-                </div>
-                <div class="price">
-                    <h1>$52,500</h1>
-                    <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
+                    <div class="details">
+                        <a href="./ViewDetails.html" target="_blank">
+                            <p class="heading">Mercedes-Benz E-Class 2014</p>
+                        </a>
+                        <p>COLOR: Black exterior, Jet Black interior</p>
+                        <p>TRANSMISSION: Manual</p>
+                        <p>DRIVETRAIN: Rear-Wheel Drive</p>
                     </div>
-                    <div class="links">
-                        <a href="./ViewDetails.html" target="_blank">View Details</a>
-                        <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
+                    <div class="price">
+                        <h1>$39,900</h1>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="links">
+                            <a href="./ViewDetails.html" target="_blank">View Details</a>
+                            <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="4">
+                <div class="item-list">
+                    <figure>
+                        <div class="image"><a href="./ViewDetails.html" target="_blank"><img
+                                    src="assets/Images/giorgio-trovato-DLU_5_bfAyA-unsplash.png" id="USD" alt=""></a>
+                        </div>
+                    </figure>
+                    <div class="details">
+                        <a href="./ViewDetails.html" target="_blank">
+                            <p class="heading">Chevrolet Corvette Stingray 2014</p>
+                        </a>
+                        <p>COLOR: Black exterior, Jet Black interior</p>
+                        <p>TRANSMISSION: Manual</p>
+                        <p>DRIVETRAIN: RearWheel Drive</p>
+                    </div>
+                    <div class="price">
+                        <h1>$52,500</h1>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="links">
+                            <a href="./ViewDetails.html" target="_blank">View Details</a>
+                            <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="5">
+                <div class="item-list">
+                    <figure>
+                        <div class="image"><a href="./ViewDetails.html" target="_blank"><img
+                                    src="assets/Images/martin-katler-0Sm-GWb_Zzw-unsplash.png" id="GLS" alt=""></a>
+                        </div>
+                    </figure>
+                    <div class="details">
+                        <a href="./ViewDetails.html" target="_blank">
+                            <p class="heading">Chevrolet Corvette Stingray vehicles for Sale in..</p>
+                        </a>
+                        <p>COLOR: Black exterior, Jet Black interior</p>
+                        <p>TRANSMISSION: Manual</p>
+                        <p>DRIVETRAIN: Rear-Wheel Drive</p>
+                    </div>
+                    <div class="price">
+                        <h1>$42,500</h1>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="links">
+                            <a href="./ViewDetails.html" target="_blank">View Details</a>
+                            <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="6">
+                <div class="item-list">
+                    <figure>
+                        <div class="image"><a href="./ViewDetails.html" target="_blank"><img
+                                    src="assets/Images/mauricio-sabino-DATq_xdyFhQ-unsplash.png" id="Chvr" alt=""></a>
+                        </div>
+                    </figure>
+                    <div class="details">
+                        <a href="./ViewDetails.html" target="_blank">
+                            <p class="heading">Mercedes-Benz E-Class 2014</p>
+                        </a>
+                        <p>COLOR: Black exterior, Jet Black interior</p>
+                        <p>TRANSMISSION: Manual</p>
+                        <p>DRIVETRAIN: Rear-Wheel Drive</p>
+                    </div>
+                    <div class="price">
+                        <h1>$39,900</h1>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="links">
+                            <a href="./ViewDetails.html" target="_blank">View Details</a>
+                            <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container" id="5">
-            <div class="item-list">
-                <figure>
-                    <div class="image"><a href="./ViewDetails.html" target="_blank"><img src="assets/Images/martin-katler-0Sm-GWb_Zzw-unsplash.png" id="GLS"
-                        alt=""></a>
-                    </div></figure>
-                <div class="details">
-                    <a href="./ViewDetails.html" target="_blank">
-                        <p class="heading">Chevrolet Corvette Stingray vehicles for Sale in..</p>
-                    </a>
-                    <p>COLOR: Black exterior, Jet Black interior</p>
-                    <p>TRANSMISSION: Manual</p>
-                    <p>DRIVETRAIN: Rear-Wheel Drive</p>
-                </div>
-                <div class="price">
-                    <h1>$42,500</h1>
-                    <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <div class="links">
-                        <a href="./ViewDetails.html" target="_blank">View Details</a>
-                        <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container" id="6">
-            <div class="item-list">
-                <figure>
-                    <div class="image"><a href="./ViewDetails.html" target="_blank"><img src="assets/Images/mauricio-sabino-DATq_xdyFhQ-unsplash.png" id="Chvr"
-                      alt=""></a></div></figure>           
-                           <div class="details">
-                    <a href="./ViewDetails.html" target="_blank">
-                        <p class="heading">Mercedes-Benz E-Class 2014</p>
-                    </a>
-                    <p>COLOR: Black exterior, Jet Black interior</p>
-                    <p>TRANSMISSION: Manual</p>
-                    <p>DRIVETRAIN: Rear-Wheel Drive</p>
-                </div>
-                <div class="price">
-                    <h1>$39,900</h1>
-                    <div class="rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="links">
-                        <a href="./ViewDetails.html" target="_blank">View Details</a>
-                        <a class="contact" href="./ContactSeller.html" target="_blank">Contact Seller</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
     <footer>
         <h1> Finderr. </h1>
         <p> Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit <br>
@@ -680,6 +688,7 @@
     </footer>
     <script src="./main.js"></script>
     <script src="./API.js"></script>
+    <script src="./index.js"></script>
     <script>
         let slideIndex = 1;
         showSlides(slideIndex);
