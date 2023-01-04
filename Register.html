@@ -16,7 +16,7 @@
 
         </div>
 
-        <form action="#" autocomplete="off">
+        <form action="#" autocomplete="off" id="forma">
 
             <div class="field">
                 <input type="email " name="email" id="email" required>
@@ -50,8 +50,8 @@
                 </svg>
             </div>
             <div style=" display: flex; justify-content: space-around;">
-                <input type="radio" name="ReCaptcha" value="0">
-                <input type="radio" name="ReCaptcha" value="1">
+                <input type="radio" name="ReCaptcha" value="0" required>
+                <input type="radio" name="ReCaptcha" value="1" required>
             </div>
 
 
@@ -67,5 +67,23 @@
     </div>
     </div>
 </body>
+<script>
+    var tel = document.querySelector('input[name="tel"]');
+var form = document.getElementById("forma");
 
+form.addEventListener('submit', function validatePhoneNumber(e) {
+  e.preventDefault();
+  // Regular expression to match a phone number
+  var telRegex = /^[0-9]{3} [0-9]{2} [0-9]{2} [0-9]{3}/;
+
+  // Check the value of the input against the regular expression
+  if (telRegex.test(tel.value)) {
+    // The value is a valid phone number
+    form.reset();
+  } else {
+    // The value is not a valid phone number
+    alert("Tel number format is incorrect!");
+  }
+});
+</script>
 </html>
