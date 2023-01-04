@@ -1,0 +1,146 @@
+section {
+    max-width: 69%;
+    margin: 10px auto;
+    display: grid;
+}
+
+body {
+    background: url(./assets/Images/Finderr.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: 150px 150px;
+}
+
+@font-face {
+    font-family: Myfont-Helvetica;
+    src: url(https://fonts.gstatic.com/l/font?kit=JIAxUVNqfH9WuVQQRM4zUxOn&skey=22efecd2bc0e2cb0&v=v9) format('woff2');
+}
+
+#kf {
+    position: absolute;
+    margin-left: 210px;
+    animation: move 9s infinite;
+    animation-delay: 1s;
+    font-family: Myfont-Helvetica;
+}
+
+  
+  @keyframes move {
+    from {left: 0px;}
+    to {left: 740px;}
+  }
+
+
+.electronics,
+.realestate,
+.vehicle,
+.jobs {
+    margin: 20px 0;
+    column-count: 3;
+    column-gap: 40;
+    column-rule: 1px solid lightblue;
+    border: 2px dotted lightblue;
+
+}
+
+
+.test {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    justify-content: space-around;
+    background-color: rgb(228, 226, 226);
+    border: 1px solid  rgb(155, 153, 153) ;
+}
+
+
+.vid figcaption {
+    display: block;
+}
+
+#div1,
+#div2 {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    border-style: inset;
+}
+
+section img {
+    width: 90%;
+    cursor: pointer;
+    float: right;
+    
+}
+
+video {
+    border: 2px double black;
+    margin-top: 10px;
+    
+}
+
+.aud {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    border: 1px solid  rgb(155, 153, 153) ;
+
+}
+
+h3 {
+    margin-top: 30px;
+    transform: rotateX(30deg);
+}
+
+audio {
+    margin-top: 20px;
+    border: 1px dotted black;
+    margin-bottom: 5px;
+    transform: rotateY(20deg);
+    transform: skew(-5deg);
+
+}
+
+.webstorage {
+    margin-top: 20px;
+    display: block;
+    padding: 5px;
+    background-color: rgba(197, 186, 186, 0.274);
+    resize: vertical;
+    overflow: auto;
+    border: 1px solid  rgb(155, 153, 153) ;
+}
+
+.webstorage p {
+    margin: 10px;
+}
+
+table th,
+table li {
+    border: 1px dotted rgb(187, 178, 178);
+}
+
+.td1 li {
+    list-style-type: square;
+    background-color: lightgray;
+}
+
+.td2 li {
+    list-style-type: lower-roman;
+}
+
+.td3 li {
+    list-style-type: upper-latin;
+    background-color: lightgray;
+}
+
+#id1 {
+    padding: 5px;
+    border-spacing: 10px;
+}
+
+#id2 {
+    border-collapse:collapse;
+}

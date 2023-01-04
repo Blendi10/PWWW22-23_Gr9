@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post an Ad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./Teststyle.css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- up-header: pjesa qe permban ikonat e social-media dhe pjesen per regjistrim -->
+        <div class="up-header">
+            <!-- smi-> social-media-icons  -->
+            <ul class="smi">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/" target="_blank"><img src="assets/Images/gplus b.png" width="15"
+                            height="17" alt="g+">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+            <div></div>
+            <ul class="register">
+                <li>
+                    <p style="padding-top: 4px;">Welcome, Visitor!</p>
+                </li>
+                <div class="vertical-line1"></div>
+                <li id="rg">
+                    <a href="Register.html" target="_blank"> <img src="assets/Images/Lock.png" alt=""> Register</a>
+                </li>
+                <div class="vertical-line2"></div>
+                <li id="lg">
+                    <a href="LogIn.html">Log in</a>
+                </li>
+            </ul>
+        </div>
+        <hr>
+    </header>
+    <section>
+        <br>
+        <h2 style="text-align: center; text-decoration: underline;" id="kf"> From our Website</h2>
+        <br>
+        <table border="1" width="100%" id="id1">
+            <thead>
+                <tr>
+                    <td colspan="4">Lorem ipsum dolor sit.</td>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4">Lorem ipsum dolor sit amet.</td>
+                </tr>
+            </tfoot>
+
+            <tbody>
+                <tr>
+                    <td>Lorem, ipsum dolor. Lorem, ipsum.</td>
+                    <td>Lorem, ipsum dolor. Lorem, ipsum.</td>
+                    <td>Lorem, ipsum dolor. Lorem, ipsum.</td>
+                    <td>Lorem, ipsum dolor. Lorem, ipsum.</td>
+                </tr>
+            </tbody>
+
+        </table>
+        <div class="electronics">
+            <h4>Electronics</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quibusdam voluptatem tempora iusto libero
+            natus id ab iure mollitia nihil.
+        </div>
+        <div class="realestate">
+            <h4>Real Estate</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quibusdam voluptatem tempora iusto libero
+            natus id ab iure mollitia nihil.
+        </div>
+        <div class="vehicle">
+            <h4>Vehicle</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quibusdam voluptatem tempora iusto libero
+            natus id ab iure mollitia nihil.
+        </div>
+        <div class="jobs">
+            <h4>Jobs</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quibusdam voluptatem tempora iusto libero
+            natus id ab iure mollitia nihil.
+        </div>
+        <div class="test">
+            <div class="vid">
+                <video width="320" height="240" controls>
+                    <source src="./video.webm"> D&D
+                </video>
+                <figcaption> How to use Drag and Drop property</figcaption>
+            </div>
+            <div class="dd">
+                <br>
+                <br>
+                <h4>Drag and Drop based on the video</h4>
+                <br>
+                <br>
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="./assets/Images/Finderr.png"
+                        alt="" draggable="true" ondragstart="drag(event)" id="drag1" width="80" height="30"></div>
+                <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+        </div>
+        <div class="aud">
+            <h3 id="clientsimp">Clients Impressions:</h3>
+            <audio controls>
+                <source src="./Audio.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <div class="webstorage">
+            <p><button onclick="counterL()" type="button" id="btn1" title="Click the button to add a purchase and get total number of purchases
+            ">LocalS</button></p>
+            <div id="rezL"></div>
+            <p><button onclick="counterS()" type="button" id="btn2" title="Click the button to add a purchase and get number of purchases during a session 
+                ">SessionS</button></p>
+            <div id="rezS"></div>
+        </div>
+        <br><br><br>
+        <table>
+            <tr>
+                <th>Electronics</th>
+                <th>Vehicle</th>
+                <th>Jobs</th>
+            </tr>
+            <tr>
+                <td class="td1">
+                   <a href="" style="text-decoration: none; color: black"> <li>Lorem ipsum dolor sit.</li></a>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                </td>
+                <td class="td2">
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                </td>
+                <td class="td3">
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                </td>
+            </tr>
+        </table>
+        <br><br><br>
+        <table border="1" id="id2">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Row 1 Cell 1</td>
+                <td>Row 1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Cell 2</td>
+                <td>Row 2 Cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">Row 3 Cell 1</td>
+            </tr>
+        </table>
+<br><br><br>
+    </section>
+
+    <footer>
+        <h1> Finderr. </h1>
+        <p> Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit <br>
+            consequat ipsum, nec sagittis sem nibh id elit. Duis sed od</p>
+        <ul class="smi">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://plus.google.com/" target="_blank"><img src="assets/Images/gplus w.png" alt="g+"></a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank"> <i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </ul>
+        <label> <input type="text" name="email" placeholder=" Enter Your Email to stay the know">
+            <button type="submit">SUBSCRIBE <img src="assets/Images/Layer 155 copy 3.png" alt=""></button></label>
+        <p id="bottom">Copyright &copy 2022 Finderr All Rights Reserved. Designed by <strong>TemplatesJungle</strong>
+        </p>
+    </footer>
+</body>
+
+</html>
