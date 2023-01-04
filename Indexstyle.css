@@ -161,7 +161,7 @@ input[type="submit"]:hover {
   transition: background-color 0.6s ease;
 }
 
-.active,
+.active1,
 .dot:hover {
   background-color: #f4b01d;
 }
