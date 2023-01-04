@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .carGame {
+            width: 100%;
+            height: 100vh;
+            background-image: url('./assets/Images/garden.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        .car,
+        .enemy {
+            width: 42px;
+            height: 80px;
+            background: rgb(0, 69, 160);
+            position: absolute;
+            bottom: 120px;
+        }
+
+        .lines {
+            width: 10px;
+            height: 100px;
+            background: black;
+            position: absolute;
+            margin-left: 195px;
+        }
+
+        .gameArea {
+            width: 400px;
+            height: 100vh;
+            background: #87a4c1;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+            border-right: 7px dashed #000;
+            border-left: 7px dashed #000;
+        }
+
+        .score {
+            position: absolute;
+            top: 15px;
+            right: 40px;
+            background: #ff6b6b;
+            width: 300px;
+            line-height: 70px;
+            text-align: center;
+            color: black;
+            font-size: 1.5em;
+        }
+
+        .startScreen {
+            position: absolute;
+            background-color: #ee5253;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            z-index: 1;
+            text-align: center;
+            border: 1px solid #ff6b6b;
+            padding: 15px;
+            margin: auto;
+            width: 50%;
+            cursor: pointer;
+            letter-spacing: 5;
+            font-size: 20px;
+            word-spacing: 3;
+            line-height: 30px;
+            text-transform: uppercase;
+            box-shadow: 0 5px 5px #777;
+        }
+
+        h1 {
+            position: absolute;
+            top: 15px;
+            right: 40px;
+            background: #1e8aee;
+            width: 350px;
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+            box-shadow: 0 5px 5px #777;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="carGame">
+        <div class="score"></div>
+        <div class="startScreen">
+            <p>Press here to start<br>
+                Arrow keys to move<br>
+                If you hit another car you will lose.
+            </p>
+        </div>
+        <div class="gameArea"></div>
+    </div>
+</body>
+
+</html>
